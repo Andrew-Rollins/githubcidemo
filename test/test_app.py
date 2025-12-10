@@ -23,3 +23,9 @@ def test_div():
     assert div(0,3) == 0
     assert div(0,3) != 1
     assert div(3,0) == None
+
+def test_log():
+    assert log(0) == None
+    assert log(-1) == None
+    assert log(3) == 1.0986122886681098
+

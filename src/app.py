@@ -1,5 +1,5 @@
 #!/bin/python
-import numbers
+import math
 
 def add (a, b):
     return a+b
@@ -14,3 +14,8 @@ def div (a, b):
     if(b==0):
         return None
     return a/b
+
+def log (a):
+    if(a<=0):
+        return None
+    return math.log(a)
