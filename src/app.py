@@ -19,3 +19,17 @@ def log (a):
     if(a<=0):
         return None
     return math.log(a)
+
+def sin (a):
+    return math.sin(a)
+
+def cos (a):
+    return math.cos(a)
+
+def sqrt(a):
+    if(a<0):
+        return None
+    return math.sqrt(a)
+
+def modulus(a, b):
+    return a%b

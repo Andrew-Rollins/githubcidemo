@@ -29,3 +29,19 @@ def test_log():
     assert log(-1) == None
     assert log(3) == 1.0986122886681098
 
+def test_sin():
+    assert sin(0) == 0
+    assert sin(0) != 2.0
+
+def test_cos():
+    assert cos(0) == 1.0
+    assert cos(0) != 2.0
+
+def test_sqrt():
+    assert sqrt(0) == 0
+    assert sqrt(0) != 1
+    assert sqrt(-1) == None
+
+def test_mod():
+    assert modulus(5, 3) == 2
+    assert modulus(5, 3) != 3
