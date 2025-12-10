@@ -18,3 +18,12 @@ def test_sub():
 
 def test_sub2():
     assert sub(3,2) != 0
+
+def test_mult():
+    assert mult(3,3) == 9
+
+def test_mult1():
+    assert mult(0,3) == 0
+
+def test_mult2():
+    assert mult (3,3) !=8
