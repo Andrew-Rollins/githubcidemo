@@ -20,7 +20,6 @@ def test_mult():
     assert mult(3,3) !=8
 
 def test_div():
-    assert div(0/3) == 0
-    assert div(0/3) != 1
-    assert div(3/0) == None
-    
+    assert div(0,3) == 0
+    assert div(0,3) != 1
+    assert div(3,0) == None
