@@ -6,6 +6,7 @@ sys.path.insert(0, str(root/"src"))
 
 from app import add
 from app import sub
+from app import mult
 
 def test_add():
     assert add(5, 6) == 11
