@@ -55,6 +55,5 @@ jobs:
       id-token: write
     steps:
       - name: deploy the artifacts
-        id: deploytosite
         uses: actions/deploy-pages@v4
     
