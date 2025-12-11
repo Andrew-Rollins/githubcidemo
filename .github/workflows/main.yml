@@ -58,5 +58,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: deploy the artifacts
+        id: deploytosite
         uses: actions/deploy-pages@v4
     
